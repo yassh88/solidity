@@ -21,4 +21,7 @@ contract Demo {
   function getFoo()external view returns(User[] memory){
       return userArray;
   }
+  function foo2(uint[] calldata ary) external{
+        
+  }
 }
